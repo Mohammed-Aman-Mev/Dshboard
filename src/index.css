@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: gray;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.cc1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
