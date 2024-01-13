@@ -1,9 +1,10 @@
 import React from "react";
 import { GoHome } from "react-icons/go";
 import { AiOutlineUser } from "react-icons/ai";
-import { FaRegListAlt } from "react-icons/fa";
-import { FaSearch } from "react-icons/fa";
 import { FaRegNewspaper } from "react-icons/fa";
+import { FaRegListAlt } from "react-icons/fa";
+
+import { FaSearch } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 
 const SideNav = () => {
@@ -29,19 +30,17 @@ const SideNav = () => {
     },
   ];
 
-
-
   return (
     <>
-      <div className="bg-white sticky bottom-0 rounded-b-3xl px-[24px] sm:px-[12px] py-[24px] w-full flex sm:flex-col justify-between items-center sm:w-[10%] mx-auto sm:h-[35%]">
+      <div className="bg-white rounded-b-3xl px-[24px] sm:px-[12px] py-[24px] w-full flex sm:flex-col justify-between items-center sm:w-full mx-auto sm:h-[75%]">
         {arr.map((item, j) => {
           return (
             <NavLink
               to={item.path}
               className={({ isActive, isPending }) =>
                 isActive
-                  ? `${act} w-[45px] sm:w-[25px] sm:h-[25px] h-[45px] cc1 rounded-md`
-                  : `${disAct} sm:w-[25px] sm:h-[25px] w-[45px] h-[45px] cc1 rounded-md`
+                  ? `${act} w-[45px] sm:w-[30px] sm:h-[30px] h-[45px] cc1 rounded-md`
+                  : `${disAct} sm:w-[30px] sm:h-[30px] w-[45px] h-[45px] cc1 rounded-md`
               }
               key={j}
             >
