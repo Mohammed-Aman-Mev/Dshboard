@@ -10,7 +10,7 @@ const Aside = () => {
   const act = "bg-[#2718ff] text-white";
   const disAct = "bg-white text-gray-400";
   return (
-    <div className="hidden h-[100vh] bg-white sm:flex flex-col items-center justify-between py-5 rounded-l-3xl">
+    <div className="hidden h-[100vh] bg-white sm:flex flex-col items-center justify-between py-5 rounded-l-3xl fixed">
       <div className="h-[50%] flex flex-col items-center justify-between">
         <div className="h-[80px] flex flex-col items-center justify-between">
           <div
