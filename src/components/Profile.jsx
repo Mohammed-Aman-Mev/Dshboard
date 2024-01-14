@@ -4,9 +4,9 @@ import { Button } from "keep-react";
 
 const Profile = () => {
   return (
-    <div className="w-full bg-white pt-[45px] md:w-[45%] flex flex-col items-start justify-between sm:pl-[100px] md:pl-[100px] sm:h-full md:bg-neutral-100 md:h-[100vh] lg:h-full lg:w-[30%] p-[50px] md:pr-[15px]">
+    <div className="w-full bg-white pl-[20px] pr-[0px]  pt-[45px] md:w-[45%] flex flex-col items-start justify-between sm:pl-[100px] md:pl-[100px] sm:h-full md:bg-neutral-100 md:h-[100vh] lg:h-full lg:w-[30%] sm:p-[50px] md:pr-[15px]">
       <div className="flex w-full items-center">
-        <div className="w-[50px] h-[50px] bg-[#1f5d76] rounded-full" />
+        <div className="w-[60px] h-[60px] bg-[#1f5d76] rounded-full" />
         <div>
           <h1 className="text-2xl font-bold ">Hi Mike,</h1>
           <p className="text-[12px]">welcome back</p>
